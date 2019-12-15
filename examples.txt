@@ -1,0 +1,9 @@
+∀x(L(x)→T(x))|=∀x∀y(L(x)∧S(x,y)→∃z(T(z)∧S(z,y)))
+∀x∀y∀z(R(x,y)∧R(y,z)→R(x,z))|=∀x∀y∀z∀u(R(x,y)∧R(y,z)∧R(z,u)→R(x,u))
+∀x∀y((B(x,y)→P(x)∧P(y))∧(P(x)∧P(y)→B(x,y)))|=∀x∀y(B(x,y)→B(y,x))
+∀xP(x)|=∃xP(x)
+
+
+∀x(G(x)→L(x))∧¬∃x(K(x)∧L(x))∧∀x(¬G(x)→¬E(x))|=¬∃x(K(x)∧E(x))
+∀x∀y(B(x,y)→P(x)∧P(y))|=∀x∀y(B(x,y)→B(y,x))
+∀x∃yP(x,y)|=∃y∀xP(x,y)
